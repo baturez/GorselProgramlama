@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Anasayfa"
+             Title="Ana Sayfa">
+    <VerticalStackLayout Padding="20" Spacing="15">
+ 
+        
+
+        <Frame Padding="10" BorderColor="Gray" HeightRequest="150" WidthRequest="150" HorizontalOptions="Center">
+            <Image Source="pp.png" Aspect="AspectFit"/>
+        </Frame>
+
+        <Label 
+            Text="Batuhan Fahri Kabasakaloğlu"
+            FontSize="Large"
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="Bartın Üniversitesi Bilgisayar Mühendisliği"
+            FontSize="Medium"
+            HorizontalOptions="Center" />
+
+        <Label 
+            Text="ÖDEV-1"
+            FontSize="Medium"
+            HorizontalOptions="Center" />
+
+        <Label 
+            FontSize="Small"
+            TextColor="Red"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

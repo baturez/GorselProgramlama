@@ -1,0 +1,73 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.KrediHesaplama"
+             Title="Kredi Hesaplama">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label 
+            Text="Kredi Hesaplama"
+            FontSize="Title"
+            HorizontalOptions="Center" 
+            TextColor="White" 
+            BackgroundColor="#6200EA" 
+            Padding="10"
+            VerticalTextAlignment="Center"/>
+
+        <Label
+            Text="{Binding SelectedLoanType}"
+            FontSize="Medium"
+            TextColor="OrangeRed"
+            HorizontalOptions="Center"/>
+
+            <Button Text="Kredi Türünü Seç" 
+                Command="{Binding SelectLoanTypeCommand}"
+                BackgroundColor="Transparent"
+                FontSize="Small"
+                TextColor="Black"/>
+
+        <Label>Kredi Tutarı (TL)</Label>
+        <Entry  
+            Placeholder="Kredi Tutarı (TL)" 
+               Keyboard="Numeric" 
+               x:Name="CreditAmountEntry"
+               Text="{Binding LoanAmount}" />
+        <Label>Faiz Oranı (%)</Label>
+
+        <Entry Placeholder="Faiz Oranı (%)" 
+               Keyboard="Numeric" 
+               x:Name="InterestRateEntry"
+               Text="{Binding InterestRate}" 
+               IsReadOnly="True"/>
+        <Label>Vade (Ay)</Label>
+        
+        <Label Text="{Binding LoanTerm}" 
+               FontSize="Medium" 
+               TextColor="Black" 
+               HorizontalOptions="Center" />
+        <Slider Minimum="1" Maximum="120"  
+                Value="{Binding LoanTerm}" 
+                ThumbColor="#6200EA" />
+        
+
+            <BoxView HeightRequest="1" Color="Gray" WidthRequest="100" HorizontalOptions="Center"/>
+
+            <StackLayout Padding="10" Spacing="5">
+                <Label Text="Aylık Taksit: ₺" FontSize="Small" TextColor="Gray"/>
+                <Label Text="{Binding MonthlyPayment, StringFormat='₺ {0:F2}'}" FontSize="Small" TextColor="Black"/>
+
+                <Label Text="Toplam Ödeme: ₺" FontSize="Small" TextColor="Gray"/>
+                <Label Text="{Binding TotalPayment, StringFormat='₺ {0:F2}'}" FontSize="Small" TextColor="Black"/>
+
+                <Label Text="Toplam Faiz: ₺" FontSize="Small" TextColor="Gray"/>
+                <Label Text="{Binding TotalInterest, StringFormat='₺ {0:F2}'}" FontSize="Small" TextColor="Black"/>
+            </StackLayout>
+
+            <Button Text="Hesapla" 
+                FontSize="Medium" 
+                BackgroundColor="#6200EA" 
+                TextColor="White" 
+                Command="{Binding CalculateCommand}"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

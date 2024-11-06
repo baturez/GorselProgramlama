@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.RenkSecici"
+             Title="Renk Seçici">
+    <ScrollView>
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Renk Seçici"
+               FontSize="Title"
+               HorizontalOptions="Center"
+               TextColor="White"
+               BackgroundColor="#6200EA"
+               Padding="10"
+               VerticalTextAlignment="Center"/>
+        <Label Text="Kırmızı Ton" FontSize="Medium" HorizontalOptions="Center" />
+        <Slider Minimum="0" Maximum="255" Value="{Binding Red}" />
+        <Label Text="{Binding Red, StringFormat='Red: {0}'}" FontSize="Small" HorizontalOptions="Center" />
+        <Label Text="Yeşil Ton" FontSize="Medium" HorizontalOptions="Center" />
+        <Slider Minimum="0" Maximum="255" Value="{Binding Green}" />
+        <Label Text="{Binding Green, StringFormat='Green: {0}'}" FontSize="Small" HorizontalOptions="Center" />
+        <Label Text="Mavi Ton" FontSize="Medium" HorizontalOptions="Center" />
+        <Slider Minimum="0" Maximum="255" Value="{Binding Blue}" />
+        <Label Text="{Binding Blue, StringFormat='Blue: {0}'}" FontSize="Small" HorizontalOptions="Center" />
+        <BoxView HeightRequest="150" WidthRequest="150" 
+                 BackgroundColor="{Binding ColorPreview}" 
+                 HorizontalOptions="Center" />
+        <Label Text="Renk Kodu:" FontSize="Medium" HorizontalOptions="Center" />
+        <Label Text="{Binding HexColor}" FontSize="Medium" HorizontalOptions="Center" TextColor="Black" />
+        <Button Text="Kopyala"
+            FontSize="Medium"
+            BackgroundColor="#6200EA"
+            TextColor="White"
+            Command="{Binding CopyColorCommand}" />
+        <Button Text="Random" 
+                FontSize="Medium" 
+                BackgroundColor="#6200EA" 
+                TextColor="White" 
+                Command="{Binding GenerateRandomColorCommand}"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+    

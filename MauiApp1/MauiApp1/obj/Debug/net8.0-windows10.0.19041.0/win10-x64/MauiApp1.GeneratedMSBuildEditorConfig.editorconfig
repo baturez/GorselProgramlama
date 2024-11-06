@@ -1,0 +1,74 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp1
+build_property.ProjectDir = C:\Users\batuh\source\repos\MauiApp1\MauiApp1\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/Anasayfa.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Anasayfa.xaml
+build_metadata.AdditionalFiles.TargetPath = Anasayfa.xaml
+build_metadata.AdditionalFiles.RelativePath = Anasayfa.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/KrediHesaplama.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.KrediHesaplama.xaml
+build_metadata.AdditionalFiles.TargetPath = KrediHesaplama.xaml
+build_metadata.AdditionalFiles.RelativePath = KrediHesaplama.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/RenkSecici.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.RenkSecici.xaml
+build_metadata.AdditionalFiles.TargetPath = RenkSecici.xaml
+build_metadata.AdditionalFiles.RelativePath = RenkSecici.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/VucudKitle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.VucudKitle.xaml
+build_metadata.AdditionalFiles.TargetPath = VucudKitle.xaml
+build_metadata.AdditionalFiles.RelativePath = VucudKitle.xaml
+
+[C:/Users/batuh/source/repos/MauiApp1/MauiApp1/YapılcaklarListesi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.YapılcaklarListesi.xaml
+build_metadata.AdditionalFiles.TargetPath = YapılcaklarListesi.xaml
+build_metadata.AdditionalFiles.RelativePath = YapılcaklarListesi.xaml
